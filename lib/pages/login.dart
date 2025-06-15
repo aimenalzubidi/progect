@@ -40,7 +40,7 @@ class Login extends StatelessWidget {
               child: TextFormField(
                 keyboardType: TextInputType.name,
                 decoration: const InputDecoration(
-                    hintText: "   Enter Passwrd", border: InputBorder.none),
+                    hintText: " Enter Passwrd", border: InputBorder.none),
               ),
             )
           ],
