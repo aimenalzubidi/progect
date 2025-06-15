@@ -13,7 +13,7 @@ class Home extends StatelessWidget {
         child: Column(
           children: [
             Container(
-              color: Colors.red,
+              color: Colors.black,
             )
           ],
         ),
