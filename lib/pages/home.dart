@@ -10,6 +10,7 @@ class Home extends StatelessWidget {
         title: const Text('Weather'),
       ),
       body: Container(
+<<<<<<< HEAD
         child:Column(
           children: [Container(
             color: Colors.red,
@@ -17,6 +18,14 @@ class Home extends StatelessWidget {
               
             ),
           )],
+=======
+        child: Column(
+          children: [
+            Container(
+              color: Colors.black,
+            )
+          ],
+>>>>>>> 014c5e1e895bca3067a3b427f82b07923dd66abb
         ),
       ), 
     );
