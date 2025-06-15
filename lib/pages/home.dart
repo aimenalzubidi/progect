@@ -12,10 +12,43 @@ class Home extends StatelessWidget {
       body: Container(
         child: Column(
           children: [
+            
             Container(
               color: Colors.red,
               
-            )
+            ),
+            Container(
+              color: Colors.red,
+              
+            ),
+            Container(
+              color: Colors.red,
+              
+            ),
+            Container(
+              color: Colors.red,
+              
+            ),
+
+            Container(
+              color: Colors.red,
+              
+            ),
+            Container(
+              color: Colors.red,
+              
+            ),
+            Container(
+              color: Colors.red,
+              
+            ),
+            
+
+            
+
+
+
+
           ],
         ),
       ),
