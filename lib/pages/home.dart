@@ -17,32 +17,7 @@ class Home extends StatelessWidget {
               color: Colors.red,
               
             ),
-            Container(
-              color: Colors.red,
-              
-            ),
-            Container(
-              color: Colors.red,
-              
-            ),
-            Container(
-              color: Colors.red,
-              
-            ),
-
-            Container(
-              color: Colors.red,
-              
-            ),
-            Container(
-              color: Colors.red,
-              
-            ),
-            Container(
-              color: Colors.red,
-              
-            ),
-            
+         
 
             
 
