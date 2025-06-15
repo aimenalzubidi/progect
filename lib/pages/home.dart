@@ -14,13 +14,7 @@ class Home extends StatelessWidget {
           children: [
             Container(
               color: Colors.red,
-              child: Row(
-                children: [
-                  Container(
-                    color: Colors.amber,
-                  )
-                ],
-              ),
+              
             )
           ],
         ),
