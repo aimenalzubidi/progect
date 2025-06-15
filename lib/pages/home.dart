@@ -9,7 +9,15 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Weather'),
       ),
-      body: Container(), //jfk,cdlcmdd,c
+      body: Container(
+        child: Column(
+          children: [
+            Container(
+              color: Colors.red,
+            )
+          ],
+        ),
+      ), //jfk,cdlcmdd,c
     );
   }
 }
