@@ -10,24 +10,21 @@ class Home extends StatelessWidget {
         title: const Text('Weather'),
       ),
       body: Container(
-<<<<<<< HEAD
-        child:Column(
-          children: [Container(
-            color: Colors.red,
-            child: Row(
-              
-            ),
-          )],
-=======
         child: Column(
           children: [
             Container(
-              color: Colors.black,
+              color: Colors.red,
+              child: Row(
+                children: [
+                  Container(
+                    color: Colors.amber,
+                  )
+                ],
+              ),
             )
           ],
->>>>>>> 014c5e1e895bca3067a3b427f82b07923dd66abb
         ),
-      ), 
+      ),
     );
   }
 }
