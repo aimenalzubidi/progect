@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wather/pages/home.dart';
 
 class Login extends StatelessWidget {
   const Login({super.key});
@@ -9,42 +10,36 @@ class Login extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Login '),
       ),
-      body: Container(
-        color: Colors.white,
-        child: Column(
-          children: [
-            Container(
-              margin:
-                  const EdgeInsets.symmetric(horizontal: 110, vertical: 100),
-              child: Image.asset("asset/images/shbam.jpg"),
+      body: Stack(
+        children: [
+       
+          Container(
+            height: 200,
+            width: 412,
+            color: Colors.blueGrey,
+          ),
+          SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              children: [
+                Container(
+                  height: 150,
+                  width: 100,
+                  // margin:const EdgeInsets.symmetric(horizontal: 200, vertical: 10),
+                  child: Image.asset("asset/images/shbam.jpg"),
+                ),
+               
+               Container(
+                  height: 150,
+                  width: 350,
+                  // margin:
+                  //     const EdgeInsets.symmetric(horizontal: 100, vertical: 10),
+                  child: Image.asset("asset/images/shbam.jpg"),
+                ),
+              ],
             ),
-            Container(
-              margin: const EdgeInsets.all(10),
-              decoration: const BoxDecoration(
-                  color: Colors.black,
-                  borderRadius: BorderRadius.all(Radius.circular(25))),
-              child: TextFormField(
-                keyboardType: TextInputType.name,
-                decoration: const InputDecoration(
-                    hintText: "Enter Your Name", border: InputBorder.none),
-              ),
-            ),
-            const SizedBox(
-              height: 15,
-            ),
-            Container(
-              margin: const EdgeInsets.all(10),
-              decoration: const BoxDecoration(
-                  color: Colors.black,
-                  borderRadius: BorderRadius.all(Radius.circular(25))),
-              child: TextFormField(
-                keyboardType: TextInputType.name,
-                decoration: const InputDecoration(
-                    hintText: " Enter Passwrd", border: InputBorder.none),
-              ),
-            )
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
